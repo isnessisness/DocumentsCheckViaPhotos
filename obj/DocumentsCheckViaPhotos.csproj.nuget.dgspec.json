@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\huawei\\Desktop\\Repo\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\huawei\\Desktop\\Repo\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\huawei\\Desktop\\Repo\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos.csproj",
+        "projectName": "DocumentsCheckViaPhotos",
+        "projectPath": "C:\\Users\\huawei\\Desktop\\Repo\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos.csproj",
+        "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\huawei\\Desktop\\Repo\\DocumentsCheckViaPhotos\\DocumentsCheckViaPhotos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\huawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "OpenCvSharp4": {
+              "target": "Package",
+              "version": "[4.13.0.20260318, )"
+            },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.13.0.20260302, )"
+            },
+            "Sdcb.PaddleInference.runtime.win64.mkl": {
+              "target": "Package",
+              "version": "[3.1.0.54, )"
+            },
+            "Sdcb.PaddleOCR": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Sdcb.PaddleOCR.Models.Local": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Sdcb.PaddleOCR.Models.LocalV3": {
+              "target": "Package",
+              "version": "[2.7.0.1, )"
+            },
+            "Sdcb.PaddleOCR.Models.LocalV4": {
+              "target": "Package",
+              "version": "[2.7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
